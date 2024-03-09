@@ -1,0 +1,6 @@
+@Ateliers.Training.DDD.API_HostAddress = http://localhost:5101
+
+GET {{Ateliers.Training.DDD.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

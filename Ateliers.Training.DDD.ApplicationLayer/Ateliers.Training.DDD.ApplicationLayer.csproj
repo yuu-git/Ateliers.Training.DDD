@@ -3,9 +3,18 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <RootNamespace>Ateliers.Training.DDD</RootNamespace>
+    <Company>ateliers.dev</Company>
+    <Authors>Yuu.Konno</Authors>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <NeutralLanguage>ja-JP</NeutralLanguage>
+    <RepositoryType>GitHub (Public)</RepositoryType>
+    <Copyright>Copyright 2024, Yuu.Konno</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/yuu-git/Ateliers.Training.DDD</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\.Submodules\Ateliers.Core\Ateliers.Core.ApplicationLayer\Ateliers.Core.ApplicationLayer.csproj" />
     <ProjectReference Include="..\Ateliers.Training.DDD.DomainLayer\Ateliers.Training.DDD.DomainLayer.csproj" />
     <ProjectReference Include="..\Ateliers.Training.DDD.InfrastructureLayer\Ateliers.Training.DDD.InfrastructureLayer.csproj" />
   </ItemGroup>

@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>Ateliers.Training.DDD</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Ateliers.Training.DDD.DomainLayer\Ateliers.Training.DDD.DomainLayer.csproj" />
+    <ProjectReference Include="..\Ateliers.Training.DDD.InfrastructureLayer\Ateliers.Training.DDD.InfrastructureLayer.csproj" />
+  </ItemGroup>
+
+</Project>

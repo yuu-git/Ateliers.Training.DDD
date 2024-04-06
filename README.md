@@ -80,7 +80,11 @@ https://github.com/yuu-git/Ateliers.Core
 その中に `Ateliers.Training.DDD`` をサブモジュールとして追加したい場合：
 ```
 git submodule add https://github.com/yuu-git/Ateliers.Training.DDD.git .Submodules/Ateliers.Training.DDD
+git submodule update --init --recursive
 ```
+
+このプロジェクトは別のサブモジュールを参照しているため  
+必ず `git submodule update --init --recursive` は実行してください。
 
 ### 7.2. サブモジュールのブランチについて
 

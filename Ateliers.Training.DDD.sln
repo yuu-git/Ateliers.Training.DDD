@@ -43,6 +43,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ateliers.Core.Infrastructur
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ateliers.Core.TestHelper.UnitTests", ".Submodules\Ateliers.Core\Ateliers.Core.TestHelper.UnitTests\Ateliers.Core.TestHelper.UnitTests.csproj", "{25D5E9FC-E635-4311-836A-9DEB54E9952C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".SolutionItems", ".SolutionItems", "{C65ECE7D-5976-4D2B-84D5-6B64C655FD00}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
+		README.md = README.md
+		switch_submodule_branch_develop.ps1 = switch_submodule_branch_develop.ps1
+		switch_submodule_branch_master.ps1 = switch_submodule_branch_master.ps1
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
